@@ -49,5 +49,16 @@ El Java Developed Kit contiene el software minimo para poder programar en este l
 - jar     : Empaqueta el codigo.
 - javadoc : Genera documentación.
 
+El comando javac genera instrucciones en un formato especial llamado bytecode el cual puede correr el comando java. Entonces jaa
+inicia la maquina virtual (el famoso JVM) antes de ejecutar el codigo.
+
+<div style="background-color: #000; color: #ff0; padding: 10px; border-radius: 5px;">
+
+Esto es importante: Cada 6 meses se libera una nueva version de java. Java 17 se libero en septiembre del 2021 
+
+</div>
+
+
+
 
 
