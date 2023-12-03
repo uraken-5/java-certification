@@ -41,7 +41,13 @@ Llegas al trabajo, descargas un jdk y lo instalas para luego configurar tu ide f
 tambien debes conocer las caracteristicas y elementos del entorno, cosas que quizas pasas de largo por que
 simplemente 'son asi'. Esta sección habla sobre esto.
 
+Componentes principales de java
 
+El Java Developed Kit contiene el software minimo para poder programar en este lenguaje. 
+- javac   : Convierte los .java en código bytecode .class
+- java    : Ejecuta el programa
+- jar     : Empaqueta el codigo.
+- javadoc : Genera documentación.
 
 
 
