@@ -9,3 +9,4 @@
 
 # Excepto los archivos .java
 !*.java
+!*.md
