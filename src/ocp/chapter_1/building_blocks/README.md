@@ -10,6 +10,7 @@ Utiilzar enfoque orientado a objetos.
 ---
 Nota personal: En la primera parte, se da la bienvenida al libro de estudio para la certificación. Para resumir te indica que este libro no es un curso de java y asume que sabemos java y si no, 
 te manda a leer un libro para aprender java.
+Nota personal 2: Perdonen el spanglish XD
 
 Luego te dice en la cara que no te apures con la frase 'antes de correr, aprende a caminar'. En fin, en este capitulo
 se veran:
@@ -19,4 +20,28 @@ se veran:
 - tipos de datos
 
 Pero no solo a usarlos, el libro te hara entender lo que hay por 'debajo' de cada caracteristica del lenguaje, asi que básicamente te dice que da igual que trabajes por varios años con java haciendo codigo, de todas formas fallaras este exámen por que no conoces las profundidades del mismo.
+
+Por ejemplo, que hay de malo en esta declaración?
+
+```java
+public class MiClase {
+    public static void main(String[] args) {
+        int 3dMap;
+        System.out.println(3dMap);
+    }
+}
+```
+ves? aparentemente nada, pero si hay un problema o mejor dicho se esta rompiendo una regla (y si sabes, eres un crack, pero igual debes estudiar mas).
+DICHO ESTO, COMENCEMOS !
+---
+
+# Learning about the enviroment
+
+Llegas al trabajo, descargas un jdk y lo instalas para luego configurar tu ide favorito, y luego haces tu holaMundo.java para deleitarnos con tu genialidad. Esto por varios años asi que en teoria sabes java ¿cierto?. Si pero para esta certificación 
+tambien debes conocer las caracteristicas y elementos del entorno, cosas que quizas pasas de largo por que
+simplemente 'son asi'. Esta sección habla sobre esto.
+
+
+
+
 
