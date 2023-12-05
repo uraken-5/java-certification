@@ -62,6 +62,7 @@ Las reglas y el comportamiento podrian cambiar con las versiones recientes y mas
 javac -version
 java -version
 ```
+Ambos comandos deberian indicar la version 17.
 
 </div>
 
