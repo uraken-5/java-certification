@@ -18,7 +18,7 @@ Las variables mantienen el estado de un programa y los metodos operan sobre esto
 Una clase java simple luce asi:
 
 ```java
-1:  __public__ class Animal {
+1:  public class Animal {
 2:  }
 ```
 
