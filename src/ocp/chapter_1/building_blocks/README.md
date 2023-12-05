@@ -54,7 +54,14 @@ inicia la maquina virtual (el famoso JVM) antes de ejecutar el codigo.
 
 <div style="background-color: #000; color: #ff0; padding: 10px; border-radius: 5px;">
 
-Esto es importante: Cada 6 meses se libera una nueva version de java. Java 17 se libero en septiembre del 2021 
+Esto es importante: Cada 6 meses se libera una nueva version de java. Java 17 se libero en septiembre del 2021. Esto significa que es probable que cuando descargues el jdk veas una versiòn muy adelantada a la 17 pero te recomiendo que sigas estudiando con el jdk 17.
+Las reglas y el comportamiento podrian cambiar con las versiones recientes y mas aun, interpretar como incorrecta algunas preguntas si es que usas una version mas reciente.
+
+### Comprueba tu versiòn de java
+```bash
+javac -version
+java -version
+```
 
 </div>
 
