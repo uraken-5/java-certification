@@ -15,11 +15,10 @@ En las siguientes secciones, veremos los campos, metodos y comentarios (fields, 
 Las clases java tienen dos elementos primarios, los metodos usualmente llamados funciones o procedimientos en otros lenguajes y los campos o fields que son nada mas y nada menos que las variables. Todos juntos forman a los miembros de una clase.
 Las variables mantienen el estado de un programa y los metodos operan sobre estos estados. 
 
-&emsp;&emsp;
 Una clase java simple luce asi:
 
 ```java
-1:  public class Animal {
+1:  __public__ class Animal {
 2:  }
 ```
 
