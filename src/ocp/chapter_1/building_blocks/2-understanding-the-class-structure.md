@@ -41,5 +41,11 @@ Que tenemos aqui. En la linea 2 definimos una variable de nombre 'name' de tipo 
 String es un tipo de dato que nos permite meter en una variable texto como por ejemplo "yo soy un texto". 
 String es una clase proveida por el lenguaje.
 
+## Metodos
+Las lineas 3 y 5 muestran la definición de un método el cual es una operación que puede ser llamada.
+En las líneas 6-8 hay otro método. Este tiene un tipo de retorno especial llamado void. La palabra clave void significa que no se devuelve ningún valor. Este método requiere que se le suministre información desde el método que lo llama; esta información se llama parámetro. El método setName() tiene un parámetro llamado newName, y es de tipo String. Esto significa que el llamador debe pasar un parámetro String y no esperar que se devuelva nada.
+
+
+
 
 
