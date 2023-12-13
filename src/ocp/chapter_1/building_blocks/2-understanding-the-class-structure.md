@@ -21,4 +21,25 @@ Una clase java simple luce asi:
 1:  public class Animal {
 2:  }
 ```
+Importante es saber que java le da el nombre de 'keywords' a las palabras que tienen un significado para el lenguaje
+como por ejemplo la palabra 'class' o la palabra 'public'. 
+
+Hagamos la clase Animal mas interesante:
+
+```java
+1:  public class Animal {
+2:      String name;
+3:      public String getName() {
+4:          return name;
+5:      }
+6:      public void setName(String newName) {
+7:          name = newName;
+8:      }
+9:  }
+```
+Que tenemos aqui. En la linea 2 definimos una variable de nombre 'name' de tipo 'String'.
+String es un tipo de dato que nos permite meter en una variable texto como por ejemplo "yo soy un texto". 
+String es una clase proveida por el lenguaje.
+
+
 
