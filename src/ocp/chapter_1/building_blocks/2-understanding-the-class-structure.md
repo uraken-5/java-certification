@@ -60,6 +60,34 @@ public int numberVisitors(int month) {
 El nombre del mètodo es numberVisitors, y tenemos un parametro de nombre month que es de tipo Int. Entonces la firma del
 mètodo es numberVisitors(int).
 
+## Comentarios
+Otra parte importante del código son los comentarios. Los comentarios no son ejecutados por lo que puedes colocarlos
+en distintos lugares del código. Los comentarios hacen tu código mas entendible y facil de leer. Existen 3 tipos de comentarios
+en java. El primer tipo de comentario es conocido como 'single line comment'
+
+```java
+//this is a single line comment
+```
+un single line comment inicia con doble slash. El compilador ignora todo lo que hay despues de los doble slash.
+Luego tenemos los multiple-line-comment
+
+```java
+/*
+        this is a multiple-line-comment
+ */
+```
+Este tipo de comentario tambien es conocido como 'comentario multilinea'. Incluye todo desde el simbolo /* y el fin */. Finalmente tenemos los
+java-docs-comments.
+
+```java
+/**
+ * Javadoc multiple-line comment
+ * @author Balto el terrible
+ */
+```
+Este tipo es similar al comentario multilinea, salvo que comienza con /**. Esta sintaxis especial le
+indica a la herramienta javadoc que ponga atención al contenido que aqui se encuentra.
+
 
 
 
