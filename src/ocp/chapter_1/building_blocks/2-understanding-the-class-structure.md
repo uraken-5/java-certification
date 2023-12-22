@@ -86,7 +86,37 @@ java-docs-comments.
  */
 ```
 Este tipo es similar al comentario multilinea, salvo que comienza con /**. Esta sintaxis especial le
-indica a la herramienta javadoc que ponga atención al contenido que aqui se encuentra.
+indica a la herramienta javadoc que ponga atención al contenido que aqui se encuentra. En el exámen no se veran los javadocs pero es bueno que los conozcas. 
+
+Un poco de práctica ¿ puedes identificar estos comentarios y su tipo?
+
+```java
+/*
+ * // anteater
+ */
+
+// bear
+
+// // cat
+
+// /* dog */
+
+/* elephant */
+
+/*
+ * /* ferret */
+ */
+```
+
+¿Los puedes ver? aqui hay algunos trucos. Vamos a ver:
+El comentario 'anteater' es un comentario multilinea. los doble slash son parte del texto.
+El comentario bear es un comentario de una linea.
+El comentario cat es un comentario de una linea.
+El comentatio elephant es un comentario multilinea.
+El comentario ferret no compilara, ya que como vimos los comentarios multilineas comienzan con /* y terminan con */ entonces el /*final queda sin cierre.
+
+
+
 
 
 
