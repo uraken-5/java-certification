@@ -20,3 +20,6 @@ un archivo de nombre Zoo.java y posicionarte en su ubicación para luego hacer:
 javac Zoo.java
 java Zoo
 ```
+Si el programa te dice 'Hello World' compilo bien, si aparecio algun error deberias primero que nada leer el error y posiblemente no tengas instalado el JDK 17 o quizas te falte configurar la variable de entorno PATH. 
+Aqui no haremos troubleshooting asi que tendras que buscar con chatgp3. 
+
