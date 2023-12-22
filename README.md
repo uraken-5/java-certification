@@ -5,5 +5,5 @@ Este espacio esta dedicado a documentar todo mi estudio para lograr la certifica
 
 # Índice
 
-* Chapter 1 - Building Blocks
+* [Chapter 1 - Building Blocks](https://github.com/uraken-5/java-certification/tree/main/src/ocp/chapter_1/building_blocks)
 * Chapter 2 - Operators
