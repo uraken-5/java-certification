@@ -43,8 +43,22 @@ String es una clase proveida por el lenguaje.
 
 ## Metodos
 Las lineas 3 y 5 muestran la definición de un método el cual es una operación que puede ser llamada.
-En las líneas 6-8 hay otro método. Este tiene un tipo de retorno especial llamado void. La palabra clave void significa que no se devuelve ningún valor. Este método requiere que se le suministre información desde el método que lo llama; esta información se llama parámetro. El método setName() tiene un parámetro llamado newName, y es de tipo String. Esto significa que el llamador debe pasar un parámetro String y no esperar que se devuelva nada.
+En las líneas 6-8 hay otro método. Este tiene un tipo de retorno especial llamado void. 
+La palabra clave void significa que no se devuelve ningún valor. 
+Este método requiere que se le suministre información desde el método que lo llama.
+esta información se llama parámetro. El método setName() tiene un parámetro llamado newName, 
+y es de tipo String. Esto significa que el llamador debe pasar un parámetro String y no esperar 
+que se devuelva nada.
 
+El nombre del mètodo y los tipos de paràmetros se conocen como la 'firma' del mètodo. ¿Puedes identificar la firma de este mètodo?
+
+```java
+public int numberVisitors(int month) {
+    return 10;
+}
+```
+El nombre del mètodo es numberVisitors, y tenemos un parametro de nombre month que es de tipo Int. Entonces la firma del
+mètodo es numberVisitors(int).
 
 
 
