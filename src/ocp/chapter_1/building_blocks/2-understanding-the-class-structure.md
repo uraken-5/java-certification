@@ -113,7 +113,31 @@ El comentario 'anteater' es un comentario multilinea. los doble slash son parte 
 El comentario bear es un comentario de una linea.
 El comentario cat es un comentario de una linea.
 El comentatio elephant es un comentario multilinea.
-El comentario ferret no compilara, ya que como vimos los comentarios multilineas comienzan con /* y terminan con */ entonces el /*final queda sin cierre.
+El comentario ferret no compilara, ya que como vimos los comentarios multilineas comienzan con /* y terminan con */ entonces el */ final queda sin cierre.
+
+### Classes and source files
+En la mayoria de los casos, las clases java son definidas en su mismo archivo con extensión .java. En este capitulo el unico 'top-level type' es la 'clase'. Un top-level-type es una estructura
+de datos que puede ser definida dentro de su propio archivo. En otros capitulos se veran otros tipos de top-leve-types como las nested classes (clases intentas).
+
+una clase 'top-leve-type' es usualmente publica, que significa que cualquier otra clase puede llamarla. Curiosamente una clase no necesita ser definida
+explicitamente 'public', por ejemplo la siguiente compilara de las mil maravillas.
+
+```java
+1:  class Animal {
+2:      String name;
+3:  }
+```
+
+Tu puedes incluso colocar dos tipos en un mismo archivo (dos clases). Si haces esto almenos una de ellas debe ser 'public'. Mira este archivo, el cual
+compilara perfectamente.
+
+```java
+1:  public class Animal {
+2:      private String name;
+3:  }
+4:  class Animal2 {}
+```
+El nombre del archivo deberia ser Animal.java pero si quisieras que el archivo se llamase Animal2 estas obligado a dejar esa clase como 'public', de otra forma no compilara.
 
 
 
