@@ -25,4 +25,11 @@ Aqui no haremos troubleshooting asi que tendras que buscar con chatgp3.
 
 Para poder compilar un archivo java con el comando 'javac' el archivo debe tener la extensión '.java'. El nombre del archivo debe hacer
 match con el nombre de la clase publica (Zoo).
-El resultado es un archivo de bytecode con el mismo nombre del archivo pero con extension .class
+El resultado es un archivo de bytecode con el mismo nombre del archivo pero con extension .class.
+
+Vamos a revisar las palabras claves que tiene la firma del metodo 'main'l.
+
+- 'public' es una palabra clave que declara el nivel de exposición del método para las clases la puedan llamar. 'public' indica que 
+tenemos un acceso total desde cualquier parte del programa. 
+- 'static' vincula el metodo en cuestion con la clase que la contiene. Esto significa que puedes llamar al método sin necesidad de crear un objeto
+
