@@ -31,5 +31,14 @@ Vamos a revisar las palabras claves que tiene la firma del metodo 'main'l.
 
 - 'public' es una palabra clave que declara el nivel de exposición del método para las clases la puedan llamar. 'public' indica que 
 tenemos un acceso total desde cualquier parte del programa. 
-- 'static' vincula el metodo en cuestion con la clase que la contiene. Esto significa que puedes llamar al método sin necesidad de crear un objeto
+- 'static' vincula el metodo en cuestion con la clase que la contiene. Esto significa que puedes llamar al método sin necesidad de crear un objeto.
+- 'void' es un tipo de retorno. Indica que el metodo no devuelve ningun valor. Es buena practica utilizar 'void' en métodos que cambian el estado del objeto.
+- 'main' finalmente llegamos a la lista de parametros del método main, representado por un array de java.lang.String. Se puede usar cualquier nombre de variable valido siguiendo alguno de estos tres formatos:
+```java
+String[] args
+String options[]
+String... friends
+```
+El compilador acepta cualquiera de estos. Arg, options y friends solamente son los nombres que se le asignaron a la lista de String.
+Los corchetes indican que son arreglos de String y los tres puntitos son conocidos como 'varargs' (lista de argumentos variables) 
 
