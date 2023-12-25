@@ -42,3 +42,28 @@ String... friends
 El compilador acepta cualquiera de estos. Arg, options y friends solamente son los nombres que se le asignaron a la lista de String.
 Los corchetes indican que son arreglos de String y los tres puntitos son conocidos como 'varargs' (lista de argumentos variables) 
 
+## Passing parameters to a java program
+Vamos a ver como pasar parametros a un metodo. Modificaremos la clase Zoo para que imprima los dos argumentos que le son enviados.
+
+```java
+public class Zoo {
+    public static void main(String[] args) {
+        System.out.println(args[0]);
+        System.out.println(args[1]);
+    }
+}
+```
+El código [0] accede al primer elemento del arreglo, como sabras en java partimos contando desde el 0. Para ejecutar este metodo hacemos lo siguiente:
+
+```text
+javac Zoo.java
+java Zoo Bronx Zoo
+```
+
+La salida es la siguiente:
+
+```text
+Bronx
+Zoo
+```
+muy fácil de entender el por que esta salida.
