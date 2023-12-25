@@ -23,3 +23,6 @@ java Zoo
 Si el programa te dice 'Hello World' compilo bien, si aparecio algun error deberias primero que nada leer el error y posiblemente no tengas instalado el JDK 17 o quizas te falte configurar la variable de entorno PATH. 
 Aqui no haremos troubleshooting asi que tendras que buscar con chatgp3. 
 
+Para poder compilar un archivo java con el comando 'javac' el archivo debe tener la extensión '.java'. El nombre del archivo debe hacer
+match con el nombre de la clase publica (Zoo).
+El resultado es un archivo de bytecode con el mismo nombre del archivo pero con extension .class
