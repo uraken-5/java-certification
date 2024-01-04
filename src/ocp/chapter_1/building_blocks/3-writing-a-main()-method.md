@@ -91,6 +91,19 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException:
 Index 1 out of bounds for length 1
 at Zoo.main(Zoo.java:4)
 ```
+## Single file source code
+
+Si estas cansado de tipear javac y java cada vez que tienes que compilar para probar un código, aqui tenemos un
+shortcut para ti. Puedes intentar algo como esto:
+```text
+java Zoo.java Bronx zoo
+```
+Como vez, es mas corto de realizar y cumple la misma funcion que hacerlos por separado, no creo que necesite mas explicación.
+Esta caracteristica es llamada 'launching single file source code' y es util para testing o para pequeños programas.
+
+
+
+
 
 
 
