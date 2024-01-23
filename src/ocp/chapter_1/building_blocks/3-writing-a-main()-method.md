@@ -67,3 +67,45 @@ Bronx
 Zoo
 ```
 muy fácil de entender el por que esta salida.
+
+Si necesitas colocar una frase (espacios entre palabras) tienes que mandar los argumentos entre comillas dobles.
+```text
+javac Zoo.java
+java Zoo "San Diego" Zoo
+```
+Ahora la salida aparece con espacios
+```text
+San Diego
+Zoo
+```
+Entonces, ¿ que pasaria si le pasamos solo un argumento ?. 
+```text
+javac Zoo.java
+java Zoo Zoo
+```
+Al leer args[0] java puede obtener 'Zoo' pero entrara en panico cuando intente leer args[1]. ¿Que hago si no hay argumento en la posición 1?. Java
+lanzara una exception que te dira que no tiene idea de que hacer con el argumento de la posición 1.
+```text
+Zoo
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException:
+Index 1 out of bounds for length 1
+at Zoo.main(Zoo.java:4)
+```
+## Single file source code
+
+Si estas cansado de tipear javac y java cada vez que tienes que compilar para probar un código, aqui tenemos un
+shortcut para ti. Puedes intentar algo como esto:
+```text
+java Zoo.java Bronx zoo
+```
+Como vez, es mas corto de realizar y cumple la misma funcion que hacerlos por separado, no creo que necesite mas explicación.
+Esta caracteristica es llamada 'launching single file source code' y es util para testing o para pequeños programas.
+
+
+
+
+
+
+
+
+
